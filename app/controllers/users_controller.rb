@@ -4,15 +4,15 @@ class UsersController < ApplicationController
     @name = "I am the index action"
   end
 
-  def post
-    @name = "I am the post action"
+  def new
+    @name = "I am the new action"
   end
 
   def edit
     @name = "I am the edit action"
   end
 
-  def delete
-    @name = "I am the delete action"
+  def show
+    @name = "I am the show action"
   end
 end
